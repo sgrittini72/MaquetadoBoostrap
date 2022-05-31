@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(203, 203, 241);
+}
+
+.miColorDiv a{
+    color: white;
+
+}
+
+.divColumn{
+    height: 200px;
+}
+
+.miContainer{
+    margin: 10px;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Maquetado Boostrap</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../miStyle.css">
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid  miColorDiv">
+                <a class="navbar-brand" href="../index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="formulario.html">Formulario</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="grid.html">Grid</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="table.html">Table</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="carrusel.html">Carrusel</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form>
+                <h3>Contacto</h3>
+                <div class="p-4">
+
+                    <div class="mb-3 w-25">
+                        <label for="formNombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="formNombre" aria-describedby="nombre">
+                        <div id="emailHelp" class="form-text">Escriba su nombre.</div>
+                    </div>
+                    <div class="mb-3 w-25">
+                        <label for="formApellido" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="formApellido" aria-describedby="apellido">
+                        <div id="emailHelp" class="form-text">Escriba su apellido.</div>
+                    </div>
+                    <div class="mb-3 w-25">
+                        <label for="formTelefono" class="form-label">Telefono</label>
+                        <input type="number" class="form-control" id="formTelefono" aria-describedby="telefono">
+                        <div id="emailHelp" class="form-text">Dejenos un telefono de contacto</div>
+                    </div>
+                    <div class="mb-3 w-25">
+                        <label for="formEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="formEmail" aria-describedby="email">
+                        <div id="emailHelp" class="form-text">Escriba su direccion de correo.</div>
+                    </div>
+                    <div class="form-floating w-25">
+                        <textarea class="form-control" placeholder="Leave a comment here"
+                            id="formComentario"></textarea>
+                        <label for="formComentario">Comentarios</label>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+
+            </form>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
